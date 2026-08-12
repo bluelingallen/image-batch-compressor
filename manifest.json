@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "图片批量压缩工具 Image Batch Compressor",
+  "version": "1.0.0",
+  "description": "纯前端本地压缩图片，不上传任何服务器，保护隐私。免费使用，自愿打赏支持作者。 / Compress images locally in your browser. No upload, private & free. Optional tip to support the author.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "图片批量压缩 Image Batch Compressor"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": ["downloads"]
+}

@@ -1,0 +1,22 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+.app { width: 340px; padding: 14px; color: #222; }
+h1 { font-size: 16px; margin: 0 0 4px; }
+h1 .en { display: block; font-size: 11px; color: #2b7de9; font-weight: 400; margin-top: 2px; }
+.tip { font-size: 12px; color: #888; margin: 0 0 12px; }
+input[type="file"] { width: 100%; margin-bottom: 12px; }
+.ctrl { display: flex; flex-direction: column; gap: 4px; font-size: 13px; margin-bottom: 12px; }
+.ctrl label { color: #555; }
+.ctrl select, .ctrl input[type="number"] { padding: 4px; }
+button { width: 100%; padding: 9px; border: none; border-radius: 6px; background: #2b7de9; color: #fff; font-size: 14px; cursor: pointer; }
+button:hover { background: #1d6fd0; }
+#results { margin: 12px 0; display: flex; flex-direction: column; gap: 8px; }
+.row { display: flex; flex-direction: column; gap: 2px; font-size: 12px; background: #f5f5f5; padding: 8px; border-radius: 6px; }
+.row .name { font-weight: 600; word-break: break-all; }
+.row button { width: auto; align-self: flex-start; padding: 4px 12px; font-size: 12px; background: #4caf50; }
+.row button:hover { background: #43a047; }
+.donate-box { display: flex; flex-direction: column; gap: 8px; margin-top: 14px; }
+.donate { display: block; text-align: center; padding: 9px; color: #fff; text-decoration: none; border-radius: 6px; font-size: 13px; }
+.donate:hover { opacity: 0.9; }
+.donate { background: #ff6b81; }
+.donate-en { background: #29abe0; }

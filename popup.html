@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="app">
+    <h1>图片批量压缩 <span class="en">Image Batch Compressor</span></h1>
+    <p class="tip">纯本地处理，图片不上传服务器 · Local processing, no upload</p>
+
+    <input type="file" id="files" accept="image/*" multiple>
+
+    <div class="ctrl">
+      <label>质量 Quality <span id="qualityVal">0.7</span></label>
+      <input type="range" id="quality" min="0.1" max="1" step="0.1" value="0.7">
+
+      <label>输出格式 Format</label>
+      <select id="format">
+        <option value="jpeg">JPEG</option>
+        <option value="png">PNG</option>
+        <option value="webp">WebP</option>
+      </select>
+
+      <label>最大宽度 Max width (px, 0=off)</label>
+      <input type="number" id="maxWidth" value="0" min="0">
+    </div>
+
+    <button id="compress">开始压缩 Compress</button>
+    <div id="results"></div>
+    <button id="downloadAll" style="display:none">全部下载 Download all</button>
+
+    <div class="donate-box">
+      <a id="donateCn" class="donate" href="https://afdian.com/a/你的名" target="_blank" rel="noopener">❤ 支持作者（国内）</a>
+      <a id="donateEn" class="donate donate-en" href="https://ko-fi.com/你的名" target="_blank" rel="noopener">☕ Buy me a coffee (Global)</a>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
