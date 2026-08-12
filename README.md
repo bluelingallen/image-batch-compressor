@@ -9,4 +9,4 @@
 - 支持单张 / 全部下载
 
 ## 支持作者
-如果这个工具帮到了你，欢迎自愿支持：https://afdian.com/a/你的ID
+如果这个工具帮到了你，欢迎自愿支持：https://afdian.com/a/xiaoaitool
